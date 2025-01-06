@@ -1,4 +1,4 @@
-This code basically is done by cypress, cocumber BDD &follows paject object model.
+This code basically is done by cypress, cucumber BDD & follows paject object model.
 It follows steps:-
 1. Navigate to youtube.com
 2. From the search bar, search for “Itonics”
@@ -15,11 +15,11 @@ node v22.12.0
 10.9.0
 
 To run:- npm install
-        then npx cypress open
-        then in cpress window choose E2E testing 
-        then chosse browser chrome
-        then run "start testing e2e in chrome"
-        finally click on TestGridLoginTest on browser to see the automation run
+       - then npx cypress open
+        -then in cypress window choose E2E testing 
+        -then chosse browser chrome
+       - then run "start testing e2e in chrome"
+        -finally click on TestGridLoginTest on browser to see the automation run
 
 dependencies": {
     "cypress": "^13.17.0",
